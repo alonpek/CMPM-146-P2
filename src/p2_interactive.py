@@ -3,9 +3,11 @@ import random
 import pickle
 import traceback
 import tkinter
+import os
 
 import p2_pathfinder
 
+print(os.getcwd())
 if len(sys.argv) != 4:
     print("usage: %s map.gif map.mesh.pickle subsample_factor" % sys.argv[0])
     sys.exit(-1)
